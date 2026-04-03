@@ -47,7 +47,7 @@ h2 {
 	border-radius: 3px;
 	border: 1px solid black;
 	transition: 0.3s ease;
-  	object-fit: contain;
+  	object-fit: cover;
 }
 
 .container {
@@ -74,13 +74,13 @@ h2 {
 }
 
 .tryItOut {
-	border: 1px solid grey;
+ 	border: 1px solid grey;
 	border-radius: 2px;
 	padding: 5px 20px 5px 20px;
 	text-decoration: none;
-  color: black;
-  font-size: 22px;
-  transition: 0.3s ease;
+	color: black;
+	font-size: 22px;
+	transition: 0.3s ease;
 }
 
 .tryItOut:hover {
