@@ -52,7 +52,7 @@ h2 {
 
 .container {
   position: relative;
-  width: 50%;
+  width: auto;
 }
 
 .overlay {
