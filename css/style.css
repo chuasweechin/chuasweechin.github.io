@@ -42,8 +42,8 @@ h2 {
 .image {
   margin: 10px 10px 25px 10px;
   width: 300px;
-  height: auto;
-  max-height: 200px;
+  /* height: auto; */
+  max-height: 175px;
   border-radius: 3px;
   border: 1px solid black;
   transition: 0.3s ease;
