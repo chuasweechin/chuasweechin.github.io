@@ -48,6 +48,7 @@ h2 {
 	border: 1px solid black;
 	transition: 0.3s ease;
   	object-fit: cover;
+	background: red;
 }
 
 .container {
