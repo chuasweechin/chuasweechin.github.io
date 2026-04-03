@@ -1,6 +1,5 @@
 html {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 137.5%;
   -webkit-font-smoothing: antialiased;
 }
@@ -35,19 +34,19 @@ h2 {
 }
 
 .projects {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .image {
-	margin: 10px 10px 25px 10px;
-	width: 300px !important;
-  	height: 200px !important;
-	border-radius: 3px;
-	border: 1px solid black;
-	transition: 0.3s ease;
-  	object-fit: cover;
+  margin: 10px 10px 25px 10px;
+  width: 300px !important;
+  height: 200px !important;
+  border-radius: 3px;
+  border: 1px solid black;
+  transition: 0.3s ease;
+  object-fit: contain;
 }
 
 .container {
@@ -74,19 +73,19 @@ h2 {
 }
 
 .tryItOut {
- 	border: 1px solid grey;
-	border-radius: 2px;
-	padding: 5px 20px 5px 20px;
-	text-decoration: none;
-	color: black;
-	font-size: 22px;
-	transition: 0.3s ease;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  transition: 0.3s ease;
 }
 
 .tryItOut:hover {
-	color: #FFFFFF;
-	border: 1px solid #80807A;
-	background-color: #80807A;
+  color: #FFFFFF;
+  border: 1px solid #80807A;
+  background-color: #80807A;
 }
 
 main {
