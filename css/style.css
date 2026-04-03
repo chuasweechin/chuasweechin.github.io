@@ -12,7 +12,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
@@ -44,9 +43,11 @@ h2 {
 .image {
 	margin: 10px 10px 25px 10px;
 	width: 300px;
+  	height: 200px;
 	border-radius: 3px;
 	border: 1px solid black;
 	transition: 0.3s ease;
+  	object-fit: cover;
 }
 
 .container {
